@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="@font/italianno"
+        android:text="NoteFlow"
+        android:textColor="@color/white"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textViewJudul"
+        android:hint="judul"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/abu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"/>
+
+    <ImageView
+        android:id="@+id/imagefolder"
+        android:layout_width="54dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/folderr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagetrash"
+        android:layout_width="54dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/trash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
